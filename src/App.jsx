@@ -8,7 +8,8 @@ import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
-import Footer from './components/sections/footer';
+import Footerb from './components/sections/Footerb';
+
 
 
 
@@ -26,7 +27,8 @@ const [menuOpen, setMenuOpen] = useState(false);
      <About/>
      <Projects/>
      <Contact/>
-     <Footer/>
+      <Footerb/>
+    
 
 
      </div>

@@ -1,8 +1,10 @@
+
 import React from "react";
 import { motion } from "framer-motion";
 import {fadeIn} from '../../varients';
 
-const Footer = () => {
+const Footerb = () => {
+    
   return (
     <footer className="w-full py-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -124,4 +126,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footerb
