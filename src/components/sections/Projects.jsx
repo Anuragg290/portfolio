@@ -63,7 +63,7 @@ export const Projects = () => {
                   transition-all
                 "
               >
-                <h3 className="text-xl font-bold mb-2">{project.name}</h3>
+              <h3 className="text-xl font-bold mb-2 break-words">{project.name}</h3>
                 <p className="text-gray-400 mb-4">
                   {project.description || "No description available."}
                 </p>
